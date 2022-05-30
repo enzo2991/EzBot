@@ -19,7 +19,7 @@ if data["SlashCommand"]:
         name="form",
         description="Affiche l'embed pour le formulaire de whitelist",
         default_member_permissions=interactions.Permissions.MANAGE_ROLES,
-        scope=980112086573142067,
+        scope=int(data["guildId"]),
     )
     async def formulaire(ctx: interactions.CommandContext):
         button = interactions.Button(
