@@ -5,7 +5,7 @@
 EzBot is a bot made in [Python](https://www.python.org "Python") in order to have a form directly on discord, it allows to have a system of log, of second chance, of addition of automatic role
 EzBot is a bot made in python, it uses the [interactions.py](https://github.com/interactions-py) library in order to have a form directly on discord, it allows to have a system of log, of second chance, of addition of automatic role.
 
-![Main](https://streamable.com/ebmi9z)
+[Video](https://streamable.com/ebmi9z)
 
 ## Install
 
@@ -37,7 +37,7 @@ pip install discord-py-interactions
 ```
 
 * in your [developer discord portal](https://discord.com/developers/applications/), go to O2Auth, then in general, activate the scope applications.commands and give it the necessary rights
-(https://i.imgur.com/bDdNzoE.png)
+![Developers portals discord](https://i.imgur.com/bDdNzoE.png)
 
 * Run the bot
 ```
