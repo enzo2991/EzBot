@@ -1,0 +1,14 @@
+{
+	"token": "",
+	"clientId": "",
+	"guildId": "",
+	"StaffChannel": "",
+	"secondchannel": "",
+	"LogChannel": "",
+	"roleUnWhitelist": "",
+	"roleSemiWhitelist": "",
+	"roleWhitelist": "",
+	"secondechance": true,
+	"SlashCommand": true,
+	"ChannelLog": true
+}
