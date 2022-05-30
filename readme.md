@@ -2,8 +2,7 @@
 [![Python version](https://img.shields.io/badge/python-3.9-blue.svg)](https://python.org)
 [![GitHub stars](https://img.shields.io/github/stars/Enzo2991/EzBot.svg)](https://github.com/Enzo2991/EzBot/stargazers)
 
-EzBot is a bot made in [Python](https://www.python.org "Python") in order to have a form directly on discord, it allows to have a system of log, of second chance, of addition of automatic role
-EzBot is a bot made in python, it uses the [interactions.py](https://github.com/interactions-py) library in order to have a form directly on discord, it allows to have a system of log, of second chance, of addition of automatic role.
+EzBot is a bot made in [Python](https://www.python.org "Python") in order to have a form directly on discord, it allows to have a system of log, of second chance, of addition of automatic role, it uses the [interactions.py](https://github.com/interactions-py) library in order to have a form directly on discord, it allows to have a system of log, of second chance, of addition of automatic role.
 
 [Video](https://streamable.com/ebmi9z)
 
