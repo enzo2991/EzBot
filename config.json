@@ -12,6 +12,6 @@
 	"SlashCommand": true,
 	"ChannelLog": true,
 	"richpresense": true,
-	"ServerIP": 192.168.0.1,
+	"ServerIP": 192.168.10.1,
 	"ServerPort": 30120
 }
