@@ -1,5 +1,6 @@
 import interactions
 import json
+import requests
 
 with open('./config.json', 'r') as f:
   data = json.load(f)
