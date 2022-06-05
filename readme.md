@@ -17,6 +17,7 @@ pip install -r requirements.txt
 ```
 # manual install package
 pip install discord-py-interactions
+pip install requests
 ```
 
 * edit config.json
