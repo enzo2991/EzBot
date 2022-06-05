@@ -10,5 +10,8 @@
 	"roleWhitelist": "",
 	"secondechance": true,
 	"SlashCommand": true,
-	"ChannelLog": true
+	"ChannelLog": true,
+	"richpresense": true,
+	"ServerIP": 0.0.0.0,
+	"ServerPort": 30120
 }
