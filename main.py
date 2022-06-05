@@ -11,7 +11,21 @@ def write_json(new_data, filename='data.json'):
         file.seek(0)
         json.dump(file_data,file,indent=4)
 
+URL = "http://"+data["ServerIP"]+":"+data["ServerPort"]+"/dynamic.json"        
+        
 bot = interactions.Client(token=data["token"])
+
+if data["richpresense"]:
+@bot.event()
+async def on_ready():
+    while True:
+        try:
+            r = requests.get(url=URL)
+            UrlData = r.json()
+            await bot.change_presence(interactions.ClientPresence(activities=[interactions.PresenceActivity(name=str(UrlData["clients"])+" / "+str(UrlData["sv_maxclients"])+" Joueurs ❤️‍🔥",type=interactions.PresenceActivityType.GAME)]))
+        except:
+            await bot.change_presence(interactions.ClientPresence(activities=[interactions.PresenceActivity(name="Serveur éteint",type=interactions.PresenceActivityType.GAME)]))
+        await asyncio.sleep(60)
 
 
 if data["SlashCommand"]:
